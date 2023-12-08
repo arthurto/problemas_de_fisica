@@ -1,7 +1,7 @@
 # Um cilindro muito longo carregado
 
 Para calcula o campo elétrico dessa distribuição de carga com simetria axial é conveniente utilizar a lei de Gauss, utilizando uma superfície Gaussiana com a mesma simetria, axial, da distribuição. 
-Sendo $\rho$ a densidade de carga e $L$ um comprimento arbitrário na direção do eixo do cilindro, temos que a carga total de um segmento $L$ do cilindro vai ser igual ao volume interior ao raio $r$  desde que seja menor que $R$, portanto temos para $r\leqR$ a carga total vai ser $q = V\rho = \pi L r^2\rho$. 
+Sendo $\rho$ a densidade de carga e $L$ um comprimento arbitrário na direção do eixo do cilindro, temos que a carga total de um segmento $L$ do cilindro vai ser igual ao volume interior ao raio $r$  desde que seja menor que $R$, portanto temos para $r \leq R$ a carga total vai ser $q = V\rho = \pi L r^2\rho$. 
 Para $r > R$ temos $q = \pi R^2 L\rho$.  
 Assim temos a lei de Gauss $$\frac{V\rho}{\varepsilon_0} = \int \vec E \cdot d\vec A.$$ Precisamos encontrar agora o elemento de área do cilindro que envolve o volume da $V$, ou seja, a superfície gaussiana. Podemos imaginar a superfície Gaussiana nesse caso como sendo composta por um número infinito de pequenos anéis de altura $dh$, dessa forma a área total vai ser integrada de $0\rightarrow L$. Então o elemento de área vai ser $$d\vec A = \hat r (2 \pi r)dh.$$ Onde $\hat r$ é o vetor unitário na direção radial, e $r$ é um comprimento do raio da superfície gaussiana. Temos então dessa forma 
 $$\frac{V\rho}{\varepsilon_0} = \int_0^L (\vec E \cdot\hat r) 2\pi r dh.$$
