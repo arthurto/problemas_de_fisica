@@ -14,9 +14,9 @@ Na segunda situação temos que o volume envolto pela superfície gaussiana é m
 $$E = \frac{R^2 \rho}{2 r\varepsilon_0}.$$
 Podemos notar que dessa vez temos uma função que decresce em função de $r$, como todos os outros termos são constantes temos uma função que diminui como $1/r$.
 ### O potencial elétrico 
-O potencial elétrico de uma distribuição de carga pode ser obtido a partir da integral do campo elétrico sobre um caminho, nesse caso, devido à simetria do problema podemos tomar o caminho como partindo da origem $$V = \int_0^r \vec E\cdot\hat r'dr'$$
+O potencial elétrico de uma distribuição de carga pode ser obtido a partir da integral do campo elétrico sobre um caminho, nesse caso, devido à simetria do problema podemos tomar o caminho como partindo da origem $$V = -\int_0^r \vec E\cdot\hat r'dr'$$
 O potencial elétrico em função do raio para a primeira parte, onde $r < R$ temos que realizar a integral 
-$$V(r) = \int_0^r \frac{r'\rho}{2\varepsilon_0} dr' = \frac{r^2 \rho}{2\varepsilon_0}.$$
-Para a segunda parte temos que considerar que a partir do raio $r=R$ a função muda, portanto a integral é igual ao potencial anterior avaliado em $V(R)$ somado à diferença de potencial de $R \rightarrow r$. Assim para $r > R$ temos: $$V(r) = V(R) + \int_R^{r} \vec E \cdot \hat r' dr' = V(R) + \int_R^{r} \frac{R^2 \rho}{2 r\varepsilon_0}dr',$$
-$$V(r) = V(R) + \frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right)$$
-$$V(r) = \frac{R^2 \rho}{2\varepsilon_0} + \frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right)$$
+$$V(r) = -\int_0^r \frac{r'\rho}{2\varepsilon_0} dr' = -\frac{r^2 \rho}{2\varepsilon_0}.$$
+Para a segunda parte temos que considerar que a partir do raio $r=R$ a função muda, portanto a integral é igual ao potencial anterior avaliado em $V(R)$ somado à diferença de potencial de $R \rightarrow r$. Assim para $r > R$ temos: $$V(r) = V(R) - \int_R^{r} \vec E \cdot \hat r' dr' = V(R) - \int_R^{r} \frac{R^2 \rho}{2 r\varepsilon_0}dr',$$
+$$V(r) = V(R) - \frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right)$$
+$$V(r) = -\frac{R^2 \rho}{2\varepsilon_0} -\frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right)$$
