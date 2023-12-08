@@ -25,4 +25,4 @@ $$V(r) = V(R) - \frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right),$$
 $$V(r) = -\frac{R^2 \rho}{2\varepsilon_0} -\frac{R^2\rho}{2\varepsilon_0}\log\left(\frac{r}{R}\right).$$
 
 Temos dessa forma o potencial elétrico em função do raio:
-$$ V(r) = \left\{\begin{matrix} -\frac{r^2 \rho}{2\varepsilon_0} // -\frac{\rho}{2\varepsilon_0}\left( 1+\log\left(\frac{r}{R}\right)\right)\end{matrix} \right.$$
+$$V(r) = \left\{\begin{matrix} -\frac{r^2 \rho}{2\varepsilon_0} // -\frac{\rho}{2\varepsilon_0}\left( 1+\log\left(\frac{r}{R}\right)\right)\end{matrix} \right.$$
